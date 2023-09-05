@@ -91,7 +91,7 @@ $Q_i = \frac{n}{p_i^{e_i}}Q = \frac{n}{p_i^{e_i}}(k_iP) = k_i(\frac{n}{p_i^{e_i}
 
 $Q_0 = \frac{n}{p_i}Q = \frac{n}{p_i}(lP) = l(\frac{n}{p_i}P) = lP_0$
 
-因为 $\langle P_0 \rangle$ 的阶为 $p_i$ , $z_0$ 是 $p_i$ 进制上的第一位数，所以 $lP_0 = z_0P_0 = Q_0$ 。$z_0$ 可以由 $\langle P_0 \rangle$ 上的ECDLP求解。
+因为 $\langle P_0 \rangle$ 的阶为 $p_i$ , $z_0$ 是 $p_i$ 进制上的第一位数，所以 $lP_0 = z_0P_0 = Q_0$ 。 $z_0$ 可以由 $\langle P_0 \rangle$ 上的ECDLP求解。
 
 可以将其扩展至 求解 $\langle P_0 \rangle$ 上的ECDLP $Q_j = z_iP_0$ ， 其中
 
